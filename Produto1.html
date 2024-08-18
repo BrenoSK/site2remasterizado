@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+body {
+    background-image: url("Imagens/BackGroud_ReVenda.gif");
+}
+        /* Re-vendas */
+#product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.product-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.product-item:hover {
+    transform: scale(1.02);
+}
+
+.product-item img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.product-info h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product-info p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.product-info .btn {
+    margin-top: 10px;
+}
+
+/* Detalhes do Produto */
+#product-details {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#product-details img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+#product-details p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+    </style>
+    <header>
+        <div class="container">
+            <h1>Produto 1</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Contato.html">Contato</a></li>
+                    <li><a href="download.html">Download</a></li>
+                    <li><a href="enviar-link.html">Enviar Grupo</a></li>
+                    <li><a href="meus-grupos.html">Meus Grupos</a></li>
+                    <li><a href="Re-vendas.html">Re-vendas</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section id="product-details">
+                <img src="path/to/product1.jpg" alt="Produto 1">
+                <h2>Produto 1</h2>
+                <p>Descrição detalhada do produto 1.</p>
+                <p><strong>Preço:</strong> R$100,00</p>
+                <a href="contato.html" class="btn">Entrar em Contato</a>
+                <!-- Ou, se você estiver vendendo diretamente -->
+                <!-- <button class="btn">Comprar Agora</button> -->
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Grupos Whats. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
