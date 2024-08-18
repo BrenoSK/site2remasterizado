@@ -5,7 +5,7 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     color: #ffffff;
-    background-image: url('Imagens/BackGroud_Intermediario.gif');
+    background-image: url('BackGroud_Intermediario.gif');
     background-size: cover; /* A imagem vai cobrir toda a tela */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita que a imagem se repita */
